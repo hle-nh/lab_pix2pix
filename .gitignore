@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# ML artifacts
+checkpoints/
+*.pt
+datasets/
+outputs/
+logs/
+lab_cache/
+comparison.py
+visuals/
+evaluation_metrics.json
+cGAN-DL/
+
+#data
+annotations/
+test2017/
+train2017/ 
+val2017/
+gray2017/
+output_subset/
+output_finetune/
+output_finetune_vgg/
+coco_subset_colorization/
+infer_outputs/
