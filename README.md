@@ -227,6 +227,12 @@ Inference steps:
 
 ## Qualitative Evaluation
 
+| Model          | PSNR ↑    | SSIM ↑    | MS-SSIM ↑ | Colorfulness ↑ | FID ↓     |
+| -------------- | --------- | --------- | --------- | -------------- | --------- |
+| Subset         | 21.74     | 0.812     | 0.920     | 26.22          | 36.89     |
+| Finetune       | **22.04** | **0.813** | **0.921** | **26.74**      | 30.19     |
+| Finetune + VGG | 22.02     | 0.811     | 0.918     | 25.84          | **29.59** |
+
 Quantitative metrics alone cannot fully evaluate colorization quality.
 Human visual inspection is therefore essential.
 
