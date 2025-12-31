@@ -49,7 +49,6 @@ lab_pix2pix/
 │   └── fixed_samples.py          # Fixed images for consistent visualization
 │
 ├── calculate_metrics.py          # Quantitative evaluation script
-├── evaluation_metrics.json       # Saved evaluation results
 │
 ├── requirements.txt
 └── README.md
